@@ -9,4 +9,4 @@
 <h2>Renomear o banco local para tf_poo2 ou mudar o nome do banco no arquivo persistence.xml</h2>
 <h2>8 - Para qualquer duvida entre em contato via email ou instagram</h2>
 
-<img src="https://i.imgur.com/4wWACQ5.png" width="200px" alt="Minha Figura">
+<img src="https://i.imgur.com/4wWACQ5.png" width="800px" alt="Minha Figura">
