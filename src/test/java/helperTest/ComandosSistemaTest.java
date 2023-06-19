@@ -34,7 +34,7 @@ class ComandosSistemaTest {
     void inserirAplicacao() {
         
         Aplicacao aplicacao = new Aplicacao("teste14", "2023-06-17", "cenario teste", 8f, 0);
-        aplicacao.setNome("teste2junit");
+        aplicacao.setNome("aplicacao");
        
         boolean resultado = ComandosSistema.inserirAplicacao(aplicacao);
 
@@ -46,7 +46,7 @@ class ComandosSistemaTest {
 
     @Test
     void inserirDespesa() {
-        Despesa despesa = new Despesa("teste243", "2023-06-18", "cenario teste2", 4f);
+        Despesa despesa = new Despesa("despesa", "2023-06-18", "cenario teste2", 4f);
        
         boolean resultado = ComandosSistema.inserirDespesa(despesa);
         
@@ -57,7 +57,7 @@ class ComandosSistemaTest {
 
     @Test
     void inserirEmprestimo() {
-        Emprestimo emprestimo = new Emprestimo("gabriel12", "2023-06-17", "cachorras2", 2f, 8f, 2, 2f);
+        Emprestimo emprestimo = new Emprestimo("emprestimo", "2023-06-17", "petshop", 2f, 8f, 2, 2f);
        
         boolean resultado = ComandosSistema.inserirEmprestimo(emprestimo);
         
@@ -70,7 +70,7 @@ class ComandosSistemaTest {
     @Test
     void inserirReceita() {
        
-        Receita receita = new Receita("teste52", "2023-06-20", "cenario teste42", 10f);
+        Receita receita = new Receita("receita", "2023-06-20", "cenario teste42", 10f);
       
       
        
@@ -83,8 +83,8 @@ class ComandosSistemaTest {
     
     @Test
     public void testMostrarDiaria() {
-        String dataRef = "17/06/2023";
-        String resultadoEsperado = "Relatório diário";
+        String dataRef = "19/06/2023";
+        String resultadoEsperado = "Dia: 19/06/2023 Entradas: /n teste: 2.0 Saidas: /n sas:2.0 Total: 0.0";
         
         
       
